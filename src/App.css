@@ -40,24 +40,26 @@
   width: 100%;
   max-width: 640px;
   background-image: radial-gradient(
-      at 27% 37%,
-      hsla(215, 98%, 61%, 1) 0px,
+      at 73% 63%,
+      hsla(238, 92%, 61%, 1) 0px,
       transparent 0%
     ),
-    radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
-    radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
-    radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
-    radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
-    radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+    radial-gradient(at 3% 79%, hsla(298, 92%, 72%, 1) 0px, transparent 50%),
+    radial-gradient(at 48% 1%, hsla(328, 92%, 61%, 1) 0px, transparent 50%),
+    radial-gradient(at 90% 71%, hsla(278, 92%, 67%, 1) 0px, transparent 50%),
+    radial-gradient(at 3% 4%, hsla(18, 62%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 67% 50%, hsla(222, 77%, 73%, 1) 0px, transparent 50%),
+    radial-gradient(at 21% 47%, hsla(343, 78%, 79%, 1) 0px, transparent 50%);
   position: absolute;
   content: "";
   width: 100%;
   height: 100%;
   filter: blur(100px) saturate(150%);
   top: 80px;
-  opacity: 0.15;
+  opacity: 0.6;
 }
+
+
 
 @media screen and (max-width: 640px) {
   .main {
@@ -79,8 +81,8 @@
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
 }
 
-.orange_gradient {
-  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+.purple_gradient {
+  @apply bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500 bg-clip-text text-transparent;
 }
 
 .desc {
